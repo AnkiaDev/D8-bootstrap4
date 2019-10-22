@@ -7477,51 +7477,45 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
-ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; }
+nav.navbar {
+  display: block;
+  background-color: white;
+  padding: 0.5rem 0; }
+  nav.navbar h1 {
+    background-color: #6c757d;
+    color: #fff;
+    text-align: center; }
 
-button {
-  margin: 0 .5rem .5rem .5rem; }
+#main {
+  margin-top: 20px; }
 
-.section-card {
-  display: flex; }
-  @media (max-width: 991.98px) {
-    .section-card {
-      overflow-x: scroll; } }
-
-.learn-section {
-  flex-shrink: 1;
-  flex-basis: 0;
-  flex-grow: 1;
-  margin: 0 10px; }
-  @media (max-width: 991.98px) {
-    .learn-section {
-      min-width: 100%; } }
-
-article {
-  background-color: #6c757d;
-  border-radius: 5px;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  color: white; }
-  article p {
-    padding-left: 16px;
-    border-left: 1px solid lightgrey; }
-
-#navbar-main {
-  background-color: #6c757d; }
-
-h1 {
-  text-align: center;
+.card-column article {
   background-color: #6c757d;
   color: white;
-  font-family: 'Mansalva', cursive; }
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 1rem; }
+  .card-column article div.field-content {
+    text-overflow: ellipsis;
+    word-wrap: break-word; }
+  .card-column article .views-field-title {
+    text-align: center;
+    color: white; }
+    .card-column article .views-field-title a {
+      color: #fff; }
+      .card-column article .views-field-title a:hover {
+        text-transform: none; }
+  .card-column article .views-field-field-reponse {
+    display: none; }
+  .card-column article:hover .views-field-field-reponse {
+    display: block; }
 
 h2 {
-  display: none;
+  display: hidden;
   color: white; }
+
+.navbar-collapse {
+  justify-content: center;
+  color: black; }
 
 /*# sourceMappingURL=style.css.map */
