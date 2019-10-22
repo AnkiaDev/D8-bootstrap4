@@ -1,49 +1,57 @@
-
-ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-button {
-    margin: 0 .5rem .5rem .5rem;    
-}
-
-.section-card {
-    display: flex;
-
-    @include media-breakpoint-down(md) {
-        overflow-x: scroll;
-    }
-}
-
-.learn-section {
-    flex-shrink: 1;
-    flex-basis: 0;
-    flex-grow: 1;
-    margin: 0 10px;
-
-    @include media-breakpoint-down(md) {
-        min-width: 100%;
-    }
-}
-
-article {
+//logo
+nav.navbar {
+  display: block;
+  background-color: white;
+  padding: 0.5rem 0;
+  h1 {
     background-color: #6c757d;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    padding: 1rem;
+    color: #fff;
+    text-align: center;
+  }
+}
+
+#main {
+  margin-top: 20px;
+}
+
+.card-column {
+  article {
+    background-color: $secondary;
     color: white;
-
-    p {
-        padding-left: 16px;
-        border-left: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 1rem;
+    div.field-content {
+      text-overflow: ellipsis;
+      word-wrap: break-word;
     }
+    .views-field-title {
+        text-align: center;
+        color: white;
+        a {
+            color: #fff;
+            &:hover {
+                text-transform: none;
+            }
+        }
+    }
+    .views-field-field-reponse {
+      display: none;
+    }
+    &:hover {
+      .views-field-field-reponse {
+        display: block;
+      }
+    }
+  }
 }
 
-#navbar-main {
-    background-color: #6c757d;
+h2 {
+  display: hidden;
+  color: white;
 }
 
-
+.navbar-collapse {
+  justify-content: center;
+  color: black;
+}
