@@ -1,0 +1,8 @@
+uuid: e0b2bdec-2242-4bf6-bebe-d4c9f2639e41
+langcode: en-x-simple
+status: true
+dependencies: {  }
+name: 'card collumn'
+vid: card_collumn
+description: ''
+weight: 0

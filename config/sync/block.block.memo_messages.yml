@@ -1,0 +1,22 @@
+uuid: cfa16737-cea9-4184-b382-523e5efe6df1
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - memo
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: memo_messages
+theme: memo
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  provider: system
+  label_display: '0'
+visibility: {  }

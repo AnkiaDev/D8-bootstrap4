@@ -1,0 +1,23 @@
+uuid: d2438633-556b-4418-82eb-aee8068aeedc
+langcode: en-x-simple
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.card.field_reponse
+    - node.type.card
+  module:
+    - user
+id: node.card.teaser
+targetEntityType: node
+bundle: card
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_reponse: true
+  langcode: true

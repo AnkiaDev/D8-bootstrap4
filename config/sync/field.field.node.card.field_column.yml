@@ -1,0 +1,29 @@
+uuid: a0636769-dd74-45ca-9bc6-1645f390713b
+langcode: en-x-simple
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_column
+    - node.type.card
+    - taxonomy.vocabulary.card_collumn
+id: node.card.field_column
+field_name: field_column
+entity_type: node
+bundle: card
+label: Column
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      card_collumn: card_collumn
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

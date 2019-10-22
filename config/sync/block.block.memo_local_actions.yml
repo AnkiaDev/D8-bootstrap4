@@ -1,0 +1,20 @@
+uuid: adadd454-94f5-4a5a-abbb-6fa4b10e50c0
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - memo
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: memo_local_actions
+theme: memo
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Actions d''administration principales'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,19 @@
+uuid: b2b514aa-466a-4cfc-a213-555546407079
+langcode: en-x-simple
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reponse
+    - node.type.card
+id: node.card.field_reponse
+field_name: field_reponse
+entity_type: node
+bundle: card
+label: Réponse
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

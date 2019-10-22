@@ -1,0 +1,18 @@
+uuid: fe27f822-f359-48d8-a348-2f28358cc279
+langcode: en-x-simple
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Card
+type: card
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

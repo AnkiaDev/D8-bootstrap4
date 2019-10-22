@@ -1,0 +1,11 @@
+uuid: 983ee868-ee86-4be3-ace0-dc81621cabc3
+langcode: en-x-simple
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.card_collumn
+id: taxonomy_term.card_collumn
+target_entity_type_id: taxonomy_term
+target_bundle: card_collumn
+default_langcode: site_default
+language_alterable: false

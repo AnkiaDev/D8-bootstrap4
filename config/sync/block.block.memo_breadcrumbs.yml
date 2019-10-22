@@ -1,0 +1,22 @@
+uuid: c54b8aed-999a-40f1-a660-b189c9dd42a5
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - memo
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: memo_breadcrumbs
+theme: memo
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''ariane'
+  provider: system
+  label_display: '0'
+visibility: {  }

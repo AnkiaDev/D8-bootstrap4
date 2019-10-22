@@ -1,0 +1,14 @@
+uuid: 11f44afe-4fea-4755-9493-84b817637aab
+name: Memo
+mail: ankiadev@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /cards-css
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: en-x-simple
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

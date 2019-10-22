@@ -1,0 +1,25 @@
+uuid: 80cc4c36-61be-4475-bd1c-10cf71e3209e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - memo
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: memo_branding
+theme: memo
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: Memo
+  provider: system
+  label_display: '0'
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
